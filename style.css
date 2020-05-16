@@ -1,0 +1,45 @@
+body,html {
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: rgb(34, 139, 34);
+    font-size: 1.5rem;
+}
+
+div, header, footer{
+    padding: 20px;
+}
+
+input[type="email"]{
+    padding: 10px 12px;
+    display: block;
+}
+input[type="text"]{
+    padding: 10px 12px;
+    display: block;
+}
+
+.send-btn{
+    background: white;
+    padding: 10px 10px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.hero-img{
+    transition: 0.7s;
+}
+.hero-img:hover{
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 768px){
+    .hero-img{
+        width: 100%;
+    }
+}
